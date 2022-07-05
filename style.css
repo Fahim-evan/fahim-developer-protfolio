@@ -1,3 +1,35 @@
 h1{
-    color: blue;
+    color: rebeccapurple;
+    font-size: 55px;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+margin: 0px;
+}
+.first{ 
+    color:red;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 60%;
+    padding-left: 3%;
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+text-decoration: none;
+background-image: linear-gradient(red, blue);
+color: yellow;
+font-weight: 800;
+padding: 10px 30px;
+border-radius: 20px;
+}
+.top-banner{
+    background-image: url(top-banner.png);
+    background-repeat: none;
 }
