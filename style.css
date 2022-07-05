@@ -11,13 +11,13 @@ margin: 0px;
 .first{ 
     color:red;
 }
-section{
+.flexible-container{
     display: flex;
-    margin-bottom: 80px;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 60%;
-    padding-left: 3%;
+    padding-left: 7%;
 }
 .half-width img{
     width: 100%;
@@ -35,8 +35,32 @@ border-radius: 20px;
     background-repeat: none;
 }
 .dream-big{
+
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 10%;
+}
+.experience-area{
+    margin-left: 2%;
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.half-width-experience{
+    width: 40%;
+    box-shadow:50px 40px 50px greenyellow;
+    margin-left: 5%;
+    margin-right: 10%;
+    padding-right: 30px;
+    border-radius: 5px;
+    border-left: 4px solid navy;
+}
+h2{
+    color: royalblue;
+    font-size: 40;
+
+}
+#Full-stack{
+    border-left:10px solid palegreen;
 }
